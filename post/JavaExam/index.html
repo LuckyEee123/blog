@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Java练习 | MyBlog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="shortcut icon" href="../../favicon.ico">
+<link rel="stylesheet" href="../../css/main.css">
+
+
+    <meta name="description" content="创建一个Student类
+package com.mss.HomeWork;
+public class Student {
+String name;
+int id;
+int age;
+String sex;
+public Student(S..." />
+    <meta name="keywords" content="编程" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="../../index.html">
+        <img src="../../images/avatar.png" class="site-logo">
+        <h1 class="site-title">MyBlog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+            <a href="../../login.html" class="site-nav">
+           个人中心（登录/注册）
+          </a>
+        
+          <a href="../../index.html" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="../../archives.html" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="../../tags.html" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="../../about.html" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+          <a class="social-link" href="https://weibo.com/1142159985/profile?topnav=1&amp;wvr=6&amp;is_all=1" target="_blank">
+            <i class="fab fa-weibo"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Stay hungry.
+    </div>
+    <div class="site-footer">
+      Powered by <a href="" target="_blank">麦思帅</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Java练习</h2>
+            <div class="post-date">2020-05-24</div>
+            
+            <div class="post-content" v-pre>
+              <p>创建一个Student类</p>
+<p>package com.mss.HomeWork;</p>
+<p>public class Student {<br>
+String name;<br>
+int id;<br>
+int age;<br>
+String sex;</p>
+<pre><code>public Student(String name, int id, int age, String sex) {
+    this.name = name;
+    this.id = id;
+    this.age = age;
+    this.sex = sex;
+}
+
+public Student() {
+}
+
+void show() {
+    System.out.println(&quot;学生的名字是&quot; + this.name + &quot;学号id为&quot; + this.id + &quot;性别为&quot; + this.sex + &quot;，&quot; + this.age + &quot;岁&quot;);
+}
+
+public static void main(String[] args) {
+    Student r1 = new Student(&quot;麦思帅&quot;, 52, 19, &quot;男&quot;);
+    r1.show();
+}
+</code></pre>
+<p>}</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="../../tag/-8-yxr0J3/index.html" class="tag">
+                    编程
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="../../post/bi-zhi/index.html">
+                  <h3 class="post-title">
+                    壁纸
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
